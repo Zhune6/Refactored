@@ -223,6 +223,12 @@ figure p{
   text-align: center;
 }
 
+footer.div.span {
+ /* background-color: #63d471; 
+  background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+} */
+color: red;
+
 /*styling for my syllabus addition*/
 .syllabus{
   
