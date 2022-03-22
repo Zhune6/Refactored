@@ -1,0 +1,65 @@
+
+ <!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- later add reset-->
+        <link rel="stylesheet" href="style.css"> 
+     <title>Snippets</title>
+   </head>
+   <body>
+       <p>
+           <pre>javascript
+            // We use a for-loop to execute code more than once
+            for (var i = 0; i < 5; i++) {
+                // This is the block of code that will run each time
+                console.log("This is the current value of i: " + i + ".");
+            }
+ 
+
+           var headerDiv = document.getElementById('header');
+    Array.from(headerDiv.children).forEach(Element => Element.style.color = "white")
+           
+            var articlesDiv = document.getElementById('articles'); 
+     articlesDiv.children[0].style.fontSize = '50px';
+
+            headerDiv.onclick = function onclick() {
+      Array.from(headerDiv.children).forEach(Element => Element.style.color ="white;") <!-- want to use this to multiple style-->
+  }
+
+      Array.from(headerDiv.children).forEach(function(Element) {element.style.color ="white;" }); }
+
+      <!--Time out for functions-->
+      setTimeout(myFunction, 3000);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "I love You !!";
+}
+     </pre>
+       </p>
+       <p><pre>
+                Html
+                &lt;p id="demo"&gt;&lt;/p&gt;
+
+                &lt;script&gt;
+                function myDisplayer(some) {
+                document.getElementById("demo").innerHTML = some;
+                }
+
+                function myFirst() {
+                myDisplayer("Hello");
+                }
+
+                function mySecond() {
+                myDisplayer("Goodbye");
+                }
+
+       </pre></p>
+       <p><pre>
+                Css
+
+       </pre></p>
+   </body>
+ </html>
+            

@@ -228,7 +228,7 @@ footer.div.span {
   background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
 } */
 color: red;
-
+ }
 /*styling for my syllabus addition*/
 .syllabus{
   
@@ -244,4 +244,29 @@ color: red;
   background-color: #63d471; /* used "presentation excitement */
   background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
   
+}
+
+.snippet-box {
+  display: flex;
+  background-color:#33393f
+  color: red;
+  flex: 1 1 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 16px;
+  justify-content: center;
+  padding: 16px;
+  width: fit-content;
+
+}
+
+.snippet-card {
+  flex: 1 1 30%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: fit-content;
+  background-color: #33393f;
+  border-style: double;
+  border-color:#e866ec
 }
